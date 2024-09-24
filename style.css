@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+
+body{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: chocolate;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.search-containter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"]{
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(111, 210, 45);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.recipe{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transfrom 0.3s ease;
+}
+
+.recipe:hover{
+    transform: translateY(-5px);
+}
+
+.recipe h2{
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.recipe img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recipe p{
+    margin: 5px 0;
+}
+
+a{
+    color: darkblue;
+    text-decoration: none;
+    transition: coolor 0.3x ease;
+}
+
+a:hover{
+    color: greenyellow;
+}
